@@ -5,7 +5,7 @@ function setup() {
 function draw() {
   background(51);
   translate(width/2, height/2);
-  fill(255);
+  specularColor(255, 255, 255);
   sphere(40);
 }
 
